@@ -24,6 +24,6 @@ ansible_host: ip_address  (VOS_IP_DE_VOS_VM)
 ```
 
 Une fois cela effectué  il faut lancer la commande :
-
+```
 ansible-playbook playbook/playbook.yml -i ./inventory.ini
-
+````
